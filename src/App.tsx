@@ -1,7 +1,22 @@
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./pages/Home";
+import Resume from "./pages/Resume";
+import Projects from "./pages/Projects";
+import Apps from "./pages/Apps";
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center p-6">
-      <h1 className="text-4xl font-bold mb-4">Welcome to alexlitchfield.com</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="apps" element={<Apps />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+
   );
 }
