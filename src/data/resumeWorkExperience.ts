@@ -1,4 +1,13 @@
-export const workExperience = [
+interface ResumeWorkExperience {
+    title: string;
+    organization: string;
+    location: string;
+    dates: string;
+    bullets: string[];
+    imageUrl?: string[];
+}
+
+export const ResumeWorkExperience = [
     {
         title: "Percussion Instructor",
         organization: "West Cabarrus High School",
@@ -9,7 +18,7 @@ export const workExperience = [
             "Guided and motivated students to achieve high-level group and individual performance goals.",
             "Mentored student leaders in creating an environment built upon teamwork, discipline, and work ethics.",
             "Coordinated with the other band staff to construct the best plan to foster overall band improvement."
-        ]
+        ],
     },
     {
         title: "Collections Representative",
@@ -20,7 +29,7 @@ export const workExperience = [
             "Provided courteous and professional reminders to clients regarding overdue invoices via phone and email.",
             "Maintained accurate records of all communications and payment arrangements in an organized manner.",
             "Balanced empathy and firmness to achieve successful payments while maintaining customer satisfaction.",
-            "Collaborated with other departments,such as Billing and Accounting, to ensure the best quality of service."
+            "Collaborated with other departments, such as Billing and Accounting, to ensure the best quality of service."
         ]
     },
     {
