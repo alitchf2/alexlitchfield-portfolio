@@ -2,8 +2,14 @@ import { ResumeEducation } from "../data/resumeEducation";
 import { ResumeSkills } from "../data/resumeSkills";
 import { ResumeProjects } from "../data/resumeProjects";
 import { ResumeWorkExperience } from "../data/resumeWorkExperience";
+import { useState } from "react";
 
 export default function Resume() {
+
+    //const [showAllEducation, setShowAllEducation] = useState(false); for future use
+    const [showAllProjects, setShowAllProjects] = useState(false);
+    const [showAllWorkExperience, setShowAllWorkExperience] = useState(false);
+
     const getBadgeStyle = (category: string) => {
         switch (category) {
         case "language":
@@ -80,7 +86,7 @@ export default function Resume() {
             <section className="space-y-4">
                 <h2 className="text-2xl font-bold text-brand-navy border-b border-brand-amber pb-2">Projects</h2>
                 <div className="space-y-6">
-                {ResumeProjects.map((project) => (
+                {(showAllProjects ? ResumeProjects : ResumeProjects.slice(0, 2)).map((project) => (
                     <article key={project.title} className="bg-brand-cream/80 border border-brand-navy rounded-xl p-6 shadow-sm">
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline">
                         <h3 className="text-xl font-bold text-brand-blue">{project.title}</h3>
@@ -104,14 +110,24 @@ export default function Resume() {
                     )}
                     </article>
                 ))}
+                {ResumeProjects.length > 2 && (
+                    <button
+                        type="button"
+                        onClick={() => setShowAllProjects(!showAllProjects)}
+                        className="px-4 py-2 rounded-lg bg-brand-cream/80 border border-brand-navy hover:bg-brand-gold text-brand-navy font-semibold text-sm transition-colors cursor-pointer"
+                    >
+                        {showAllProjects ? "Show Less ↑" : `Show More (${ResumeProjects.length - 2} more) ↓`}
+                    </button>
+                )}
                 </div>
+                
             </section>
 
             {/* Work Experience Section */}
             <section className="space-y-4">
                 <h2 className="text-2xl font-bold text-brand-navy border-b border-brand-amber pb-2">Work Experience</h2>
                 <div className="space-y-6">
-                {ResumeWorkExperience.map((job) => (
+                {(showAllWorkExperience ? ResumeWorkExperience : ResumeWorkExperience.slice(0, 2)).map((job) => (
                     <article key={`${job.organization}-${job.title}`} className="bg-brand-cream/80 border border-brand-navy rounded-xl p-6 shadow-sm">
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline">
                         <h3 className="text-xl font-bold text-brand-blue">{job.title}</h3>
@@ -125,7 +141,17 @@ export default function Resume() {
                     </ul>
                     </article>
                 ))}
+                {ResumeWorkExperience.length > 2 && (
+                    <button
+                        type="button"
+                        onClick={() => setShowAllWorkExperience(!showAllWorkExperience)}
+                        className="px-4 py-2 rounded-lg bg-brand-cream/80 border border-brand-navy hover:bg-brand-gold text-brand-navy font-semibold text-sm transition-colors cursor-pointer"
+                    >
+                        {showAllWorkExperience ? "Show Less ↑" : `Show More (${ResumeWorkExperience.length - 2} more) ↓`}
+                    </button>
+                )}
                 </div>
+                
             </section>
 
             {/* Organizational Achievements Section */}
