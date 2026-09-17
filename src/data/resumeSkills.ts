@@ -5,7 +5,7 @@ interface ResumeSkills {
     usedInProjects?: string[]; // Optional field to list projects where the skill was used
 }
 
-export const ResumeSkills: ResumeSkills[] = [
+export const ResumeSkills = [
     { name: 'React Native', category: 'framework', proficiency: 'advanced' },
     { name: 'Java', category: 'language', proficiency: 'advanced' },
     { name: 'Python', category: 'language', proficiency: 'advanced' },
@@ -28,4 +28,8 @@ export const ResumeSkills: ResumeSkills[] = [
     { name: 'AWS Route 53', category: 'tool', proficiency: 'intermediate' },
     { name: 'Google Firebase', category: 'tool', proficiency: 'intermediate' },
     { name: 'Android Studio', category: 'tool', proficiency: 'advanced' },
-]
+    { name: 'TypeScript', category: 'language', proficiency: 'intermediate' },
+    { name: 'Agile Workflow', category: 'other', proficiency: 'intermediate' },
+] as const satisfies readonly ResumeSkills[];
+
+export type SkillName = typeof ResumeSkills[number]['name'];

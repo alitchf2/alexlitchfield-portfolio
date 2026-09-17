@@ -7,7 +7,7 @@ export default function Home() {
         style={{ backgroundImage: "url('logoFullImg.jpg')" }}
       >
         {/* Darkening/Tinting Overlay to keep text readable */}
-        <div className="absolute inset-0 bg-brand-navy/45 backdrop-blur-[2px]" />
+        <div className="absolute inset-0 bg-brand-navy/55 backdrop-blur-[2px]" />
 
         {/* Content Box */}
         <div className="relative z-10 max-w-3xl mx-auto text-center space-y-4">

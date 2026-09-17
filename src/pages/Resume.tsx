@@ -6,7 +6,7 @@ import { useState } from "react";
 
 export default function Resume() {
 
-    //const [showAllEducation, setShowAllEducation] = useState(false); for future use
+    //const [showAllEducation, setShowAllEducation] = useState(false); for future
     const [showAllProjects, setShowAllProjects] = useState(false);
     const [showAllWorkExperience, setShowAllWorkExperience] = useState(false);
 

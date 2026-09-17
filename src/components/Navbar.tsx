@@ -14,7 +14,7 @@ export default function Navbar() {
           <NavLink to="/" className={linkClasses}>Home</NavLink>
           <NavLink to="/resume" className={linkClasses}>Resume</NavLink>
           <NavLink to="/projects" className={linkClasses}>Projects</NavLink>
-          <NavLink to="/apps" className={linkClasses}>Apps</NavLink>
+          {/* <NavLink to="/apps" className={linkClasses}>Apps</NavLink> */}
         </div>
       </nav>
     </header>

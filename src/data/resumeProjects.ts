@@ -34,6 +34,18 @@ export const ResumeProjects = [
         githubUrl: "https://github.com/alitchf2/Resume-Projects/tree/main/Pizza-API",
     },
     {
+        title: "DP Bowling Webpage",
+        course: "Web-Based Application Design and Development",
+        description: "A webpage for a client named David Painter trying to promote his brand DP Bowling.",
+        bullets: [
+            "Engineered a multi-page responsive webpage using semantic HTML and CSS.",
+            "Implemented a JSON-based content management system for easy updates to the webpage.",
+            "Implemented AJAX requests with XMLHttpRequest to asynchronously swap text content without reloading the page.",
+            "Collaborated regularly with a client, providing updates and prototypes to ensure their vision and requirements were met."
+        ],
+        githubUrl: "https://github.com/alitchf2/DP-Bowling-Webpage",
+    },
+    {
         title: "The Dusty Bottle",
         course: "Intro to Game Design and Development",
         description: "A game where players play as a Wild-West bar owner serving drinks to NPCs to be able to pay rent by weeks end.",
