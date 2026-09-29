@@ -57,9 +57,10 @@ export const projectsData: ProjectItem[] = [
     githubUrl: "https://github.com/alitchf2/DP-Bowling-Webpage",
     toolsAndLanguages: ["HTML", "CSS", "JSON"],
     features: [
-        "Designed and developed a responsive webpage using HTML and CSS.",
-        "Implemented a JSON-based content management system for easy updates.",
-        "Optimized webpage performance and load times through efficient coding practices.",
+            "Engineered a multi-page responsive webpage using semantic HTML and CSS.",
+            "Implemented a JSON-based content management system for easy updates to the webpage.",
+            "Implemented AJAX requests with XMLHttpRequest to asynchronously swap text content without reloading the page.",
+            "Collaborated regularly with a client, providing updates and prototypes to ensure their vision and requirements were met."
     ],
   },
   {
