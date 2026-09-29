@@ -182,6 +182,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - Helper returns the correct entry regardless of array insertion order
 - Returns `undefined` gracefully if the array is empty (no crash)
+**Status:** Complete
 
 ---
 
