@@ -193,6 +193,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - At least one entry present documenting the MVP launch
 - Each entry has a valid target route that resolves to a real page
+**Status:** Complete
 
 ---
 
@@ -205,6 +206,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - Block renders the correct latest entry
 - "Take me there →" navigates to the entry's target route
+**Status:** Complete
 
 ---
 

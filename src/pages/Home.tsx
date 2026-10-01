@@ -1,3 +1,5 @@
+import WhatsNewHighlight from "../components/home/WhatsNewHighlight";
+
 export default function Home() {
   return (
     <div className="w-full">
@@ -22,6 +24,9 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      {/* What's New Highlight */}
+      <WhatsNewHighlight />
 
       {/* Future Content Blocks will go directly below this section */}
     </div>
