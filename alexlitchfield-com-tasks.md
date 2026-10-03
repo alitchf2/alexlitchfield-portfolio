@@ -217,6 +217,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - Route lists every entry in `whatsNew.ts`, newest first
 - "See all updates" link on Home routes here
+**Status** Complete
 
 ---
 

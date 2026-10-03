@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
 import Apps from "./pages/Apps";
+import Updates from "./pages/Updates"
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       { path: "resume", element: <Resume /> },
       { path: "projects", element: <Projects /> },
       { path: "apps", element: <Apps /> },
+      { path: "updates", element: <Updates /> },
     ],
   },
 ]);
