@@ -228,6 +228,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - Block pulls live data from `resumeEducation.ts`/`resumeSkills.ts` (no duplicated content)
 - "To Resume →" routes to `/resume`
+**Status** Complete
 
 ---
 
