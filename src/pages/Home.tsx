@@ -1,5 +1,6 @@
 import WhatsNewHighlight from "../components/home/WhatsNewHighlight";
 import ResumePreview from "../components/home/ResumePreview";
+import ProjectsPreview from "../components/home/ProjectsPreview";
 
 export default function Home() {
   return (
@@ -31,6 +32,9 @@ export default function Home() {
 
       {/* Resume Preview */}
       <ResumePreview />
+
+      {/* Projects Preview */}
+      <ProjectsPreview />
 
       {/* Future Content Blocks will go directly below this section */}
     </div>

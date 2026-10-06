@@ -234,11 +234,12 @@ Each task follows this format:
 
 ### 2.2.4 - Build Projects Preview Block
 **PDR Reference:** v2.2
-**Description:** Add a Home block showing the first ~5 project cards with a "View all projects" link.
+**Description:** Add a Home block showing the first 3 project cards with a "View all projects" link.
 **Dependencies:** 1.2.5
 **Acceptance Criteria:**
 - Block renders a capped slice of `projectsData.ts`, not the full list
 - "View all projects" routes to `/projects`
+**Status** Complete
 
 ---
 
