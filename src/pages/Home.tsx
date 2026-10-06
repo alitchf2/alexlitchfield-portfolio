@@ -36,6 +36,8 @@ export default function Home() {
       {/* Projects Preview */}
       <ProjectsPreview />
 
+      
+
       {/* Future Content Blocks will go directly below this section */}
     </div>
   );

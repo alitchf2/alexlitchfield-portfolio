@@ -250,6 +250,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - Block renders without error when the apps data source is empty
 - Once v6 ships real app data, the block requires no code changes to display it
+**Status** Waiting for apps to displayed
 
 ---
 
@@ -262,6 +263,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - Script runs standalone with `node scripts/fetch-recent-work.ts` (or compiled equivalent)
 - Output matches schema `{ repo, message, date, url }[]`, sorted by date descending, capped to a defined maximum count
+**Status** Skipped
 
 ---
 
@@ -272,6 +274,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - Workflow step runs the script and produces `public/recentWork.json` before the build step
 - Generated JSON is bundled into the deployed `dist/` output
+**Status** Skipped
 
 ---
 
@@ -284,6 +287,7 @@ Each task follows this format:
 - Failure is logged in the workflow output for visibility
 
 **Testing Notes:** Simulate failure by pointing the script at an invalid repo name and confirming the build still succeeds.
+**Status** Skipped
 
 ---
 
@@ -294,6 +298,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - Component renders repo name, trimmed commit message, date, and a link to the commit
 - No client-side calls to the GitHub API (data is static at build time)
+**Status** Skipped
 
 ---
 
@@ -304,6 +309,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - Repo list stored in a single config location (not hardcoded inline in the fetch script)
 - Portfolio repo and at least one active project repo included
+**Status** Skipped
 
 ---
 
@@ -318,6 +324,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - `/about` route renders and is reachable from the Navbar
 - Active-link styling matches the existing nav pattern
+**Status** Complete
 
 ---
 

@@ -36,7 +36,7 @@ export default function ProjectsPreview() {
                 <img
                   src={project.thumbnailUrl}
                   alt={`${project.title} thumbnail`}
-                  className="w-full h-40 object-cover rounded-lg mb-3 border border-brand-navy/20"
+                  className="w-full h-40 object-cover rounded-lg mb-3"
                 />
 
                 <div className="mb-2">
@@ -50,7 +50,7 @@ export default function ProjectsPreview() {
                   )}
                 </div>
 
-                <p className="text-xs text-brand-navy/90 mb-4 flex-grow line-clamp-3">
+                <p className="text-xs text-brand-navy mb-4 flex-grow line-clamp-3">
                   {project.shortDescription}
                 </p>
 
