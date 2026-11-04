@@ -88,8 +88,8 @@ export default function About() {
             <p className="mb-3">
               My passion is centered on building modern web applications, scalable cloud infrastructure, and data-driven systems.
               On the frontend, I specialize in crafting responsive, strictly typed interfaces with React, React Native, TypeScript, and Tailwind CSS. 
-              *To me, user interface design is never just about aesthetics—it directly drives the user experience. 
-              *I view the UI as a path: when it is built with intention and clarity, users reach their goals seamlessly without ever needing to search for a shortcut.
+              To me, user interface design is never just about aesthetics—it directly drives the user experience. 
+              I view the UI as a path: when it is built with intention and clarity, users reach their goals seamlessly without ever needing to search for a shortcut.
               Behind the scenes, I architect decoupled backends—ranging from serverless Python services powered by FastAPI, MySQL, and AWS 
               to enterprise Node.js microservices built with NestJS, Prisma, and PostgreSQL. 
               Whether designing high-performance relational schemas, implementing custom game loops in GameMaker Studio, 
