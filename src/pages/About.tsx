@@ -74,10 +74,14 @@ export default function About() {
               Background &amp; Philosophy
             </h2>
             <p className="mb-3">
-              [Introduce your background here: e.g., Computer Science student at UNC Charlotte with a concentration in Software Engineering and minor in Computer Engineering. Explain what first sparked your curiosity in programming.]
+              Hello! I'm Alex Litchfield, a software engineer who is passionate about breaking down tough problems and architecting effective software solutions to solve them. 
+              I recently completed my Bachelor of Science in Computer Science at UNC Charlotte (3.81 GPA), with a concentration in Software Engineering and a minor in Computer Engineering.
             </p>
             <p>
-              [Discuss what problems you enjoy solving: e.g., bridging complex systems, building responsive user interfaces, and organizing full-stack architectures that scale.]
+              My engineering mindset has been honed across diverse academic and personal software projects, where I focus on building reliable, well-tested applications. 
+              Outside of software development, I bring valuable leadership and interpersonal experience from my time as a Percussion Instructor at 
+              West Cabarrus High School and as a Collections Representative at TEG Lease. 
+              I believe great engineering isn't just about writing code—it's about empathy, adaptability, and executing solutions that truly work.
             </p>
           </div>
 
@@ -88,15 +92,21 @@ export default function About() {
             <p className="mb-3">
               My passion is centered on building modern web applications, scalable cloud infrastructure, and data-driven systems.
               On the frontend, I specialize in crafting responsive, strictly typed interfaces with React, React Native, TypeScript, and Tailwind CSS. 
-              To me, user interface design is never just about aesthetics—it directly drives the user experience. 
-              I view the UI as a path: when it is built with intention and clarity, users reach their goals seamlessly without ever needing to search for a shortcut.
+              To me, user interface design is never just about aesthetics, it's about directly driving the user experience. 
+              I view the UI as a path. When it is built with intention and clarity, users reach their goals seamlessly without ever needing to search for a shortcut.
               Behind the scenes, I architect decoupled backends—ranging from serverless Python services powered by FastAPI, MySQL, and AWS 
               to enterprise Node.js microservices built with NestJS, Prisma, and PostgreSQL. 
               Whether designing high-performance relational schemas, implementing custom game loops in GameMaker Studio, 
               or configuring AWS cloud hosting (S3, CloudFront, Route 53, and Lambda), my focus is on building systems that are modular, fast, and engineered to scale.
             </p>
             <p>
-              [Mention practical workflows: e.g., applying strict type safety, automating deployments via GitHub Actions CI/CD pipelines, and writing maintainable code.]
+              I adapt my development workflows to fit my operating environment while maintaining high code quality. 
+              When collaborating in team environments (such as on Colorfind by ASARA and Pizza-API) I thrive within structured Agile sprints, 
+              relying on iterative delivery and peer code reviews to maintain cross-functional alignment. 
+              When developing independently, I know I don't have a second pair of eyes to catch mistakes; 
+              to offset this, I build rigorous automated quality checks into my development cycle. 
+              On personal projects like the Action Figure Application and this portfolio, I enforce strict TypeScript types, 
+              pre-commit linting gates, and automated GitHub Actions CI/CD pipelines to guarantee code reliability.
             </p>
           </div>
 
