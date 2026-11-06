@@ -9,6 +9,15 @@ export interface WhatsNewEntry {
 
 export const whatsNewData: WhatsNewEntry[] = [
     {
+        slug: "about-page-launch",
+        title: "About Page Launch",
+        summary:
+        "The About page has been launched, where you can learn more about my background, philosophy, and engineering focus.",
+        imageUrl: "/whatsNewImg/about-page-launch.png",
+        date: "2026-11-05",
+        targetRoute: "/about",
+    },
+    {
         slug: "projects-page-launch",
         title: "Projects Page Launch",
         summary:
