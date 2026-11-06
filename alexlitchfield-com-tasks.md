@@ -335,6 +335,7 @@ Each task follows this format:
 **Acceptance Criteria:**
 - Photo and bio paragraph render correctly at desktop and mobile widths
 - No additional sections beyond photo, bio, and the v3.2 contact form (scope confirmed as-is)
+**Status:** Complete
 
 ---
 
