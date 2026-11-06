@@ -78,10 +78,9 @@ export default function About() {
               I recently completed my Bachelor of Science in Computer Science at UNC Charlotte (3.81 GPA), with a concentration in Software Engineering and a minor in Computer Engineering.
             </p>
             <p>
-              My engineering mindset has been honed across diverse academic and personal software projects, where I focus on building reliable, well-tested applications. 
-              Outside of software development, I bring valuable leadership and interpersonal experience from my time as a Percussion Instructor at 
-              West Cabarrus High School and as a Collections Representative at TEG Lease. 
-              I believe great engineering isn't just about writing code—it's about empathy, adaptability, and executing solutions that truly work.
+              My engineering mindset has been honed across diverse academic and personal software projects, where I focus on building reliable, well-tested applications.
+              I also bring valuable leadership and interpersonal experience from my time as a Development Project Manager at Tunehood and as a Percussion Instructor at 
+              West Cabarrus High School. I believe great engineering isn't just about writing code, it's about scalability, adaptability, and executing solutions that truly work.
             </p>
           </div>
 
@@ -94,7 +93,7 @@ export default function About() {
               On the frontend, I specialize in crafting responsive, strictly typed interfaces with React, React Native, TypeScript, and Tailwind CSS. 
               To me, user interface design is never just about aesthetics, it's about directly driving the user experience. 
               I view the UI as a path. When it is built with intention and clarity, users reach their goals seamlessly without ever needing to search for a shortcut.
-              Behind the scenes, I architect decoupled backends—ranging from serverless Python services powered by FastAPI, MySQL, and AWS 
+              Behind the scenes, I architect decoupled backends ranging from serverless Python services powered by FastAPI, MySQL, and AWS 
               to enterprise Node.js microservices built with NestJS, Prisma, and PostgreSQL. 
               Whether designing high-performance relational schemas, implementing custom game loops in GameMaker Studio, 
               or configuring AWS cloud hosting (S3, CloudFront, Route 53, and Lambda), my focus is on building systems that are modular, fast, and engineered to scale.
@@ -114,8 +113,18 @@ export default function About() {
             <h2 className="text-xl font-bold text-brand-blue mb-3 border-b border-brand-amber pb-2">
               Outside of Development
             </h2>
+            <p className="mb-3">
+              Outside of development, my drive for continuous improvement never slows down. When I’m away from the keyboard, 
+              chances are I’m out on the lanes dialing in my bowling game or behind a drum pad keeping my chops sharp. 
+              Both pursuits demand focus, discipline, and a commitment to what I call "perfect practice." 
+            </p>
             <p>
-              [Add a personal note to highlight personality: e.g., involvement in music/drumline section leadership, game design experiments, or personal interests.]
+              People often say "practice makes perfect," 
+              but raw repetition without intention only reinforces existing habits, good or bad. 
+              Perfect practice is about deliberate intention, breaking down complex mechanics into fundamental components, 
+              mastering the process rather than chasing quick results, and holding yourself to a higher standard every rep. 
+              That same mindset directly shapes how I build software, whether I'm architecting strictly typed interfaces, isolating edge cases, or refining system workflows. 
+              It also carries into how I teach, as I share the principles of "perfect practice" with clients through private percussion and bowling lessons.
             </p>
           </div>
         </section>

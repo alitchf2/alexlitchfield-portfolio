@@ -9,6 +9,19 @@ interface ResumeWorkExperience {
 
 export const ResumeWorkExperience = [
     {
+        title: "Development Project Manager",
+        organization: "Tampa.Tunehood.com",
+        location: "Remote",
+        dates: "August 2026 - Current",
+        bullets: [
+            "Authored SOWs in line with the project owner vision to define clear deliverables for the development team.",
+            "Maintained accurate records of all communications and payment arrangements in an organized manner.",
+            "Directed Quality Assurance efforts by verifying completed tasks and ensuring optimal site performance.",
+            "Participated in weekly meetings aligning the project owner and development team on progress and goals."
+
+        ],
+    },
+    {
         title: "Percussion Instructor",
         organization: "West Cabarrus High School",
         location: "Concord, NC",
